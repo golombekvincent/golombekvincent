@@ -1,7 +1,7 @@
 ---
 layout: page
-title: À propos
-ref: about
+title: Histoire
+ref: geschichte
 lang: fr
 ---
 
