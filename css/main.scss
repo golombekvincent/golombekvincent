@@ -43,7 +43,13 @@ $on-laptop:        800px;
     }
 }
 
+//MON CSS//
 
+#choix_lang{
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

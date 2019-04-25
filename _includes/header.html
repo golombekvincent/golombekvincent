@@ -1,4 +1,4 @@
-<header class="site-header">
++<header class="site-header">
 
   <div class="wrapper">
 
@@ -27,7 +27,7 @@
 
 </header>
 
-<div class="wrapper" style="text-align: right; line-height: 2em">
+<div class="wrapper" id="choix_lang" style="text-align: right; line-height: 2em">
   {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
   {% for post in posts %} <a href="{{ post.url | prepend: site.baseurl }}" class="{{ post.lang }}">{{ post.lang }}</a> {% endfor %}
 
