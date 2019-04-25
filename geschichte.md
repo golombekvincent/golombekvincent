@@ -2,7 +2,7 @@
 layout: page
 title: Geschichte
 permalink: /geschichte/
-ref: geschichte
+ref: histoire
 lang: de
 ---
 

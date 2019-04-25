@@ -1,12 +1,12 @@
 ---
 layout: default
 ref: index
-lang: fr
+lang: de
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Accueil</h1>
+  <h1 class="page-heading">Home</h1>
 
   <ul class="post-list">
     {% assign posts=site.posts | where:"lang", page.lang %}
@@ -20,5 +20,6 @@ lang: fr
       </li>
     {% endfor %}
   </ul>
+
 
 </div>
