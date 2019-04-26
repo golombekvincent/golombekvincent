@@ -52,6 +52,23 @@ $on-laptop:        800px;
 }
 .fr{
     margin-right: 5px;
+    text-transform: uppercase;
+}
+.de{
+    text-transform: uppercase;
+    
+}
+
+.instagram{
+background-image: url(../img/ig-icon.png);
+background-size: 30px 30px;
+background-repeat: no-repeat;
+}
+
+.ig_link{
+    display: block;
+    height: 30px;
+    width: 30px;
 }
 
 
