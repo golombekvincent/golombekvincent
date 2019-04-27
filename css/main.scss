@@ -58,6 +58,30 @@ $on-laptop:        800px;
     text-transform: uppercase;
     
 }
+//MON FOOTER//
+
+.linkedin{
+position: absolute;
+margin-left: 40px;
+background-image: url(../img/linkedin-icon.png);
+background-size: 30px 30px;
+width: 30px;
+height:30px;
+background-repeat: no-repeat;
+}
+
+.linkedin:hover{
+background-image: url(../img/linkedin-icon-hover.png);
+background-size: 30px 30px;
+background-repeat: no-repeat;
+}
+
+.linkedin_link{
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+
 
 .instagram{
 background-image: url(../img/ig-icon.png);
@@ -78,6 +102,8 @@ background-repeat: no-repeat;
     height: 30px;
     width: 30px;
 }
+
+
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
