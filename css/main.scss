@@ -45,6 +45,17 @@ $on-laptop:        800px;
 
 //MON CSS//
 
+//Menu//
+
+.site-logo{
+    height:75px;
+    width:75px;
+    line-height: 56px;
+    margin-bottom: 0;
+    float: left;
+}
+
+
 #choix_lang{
     display: flex;
     flex-direction: row-reverse;
@@ -58,7 +69,7 @@ $on-laptop:        800px;
     text-transform: uppercase;
     
 }
-//MON FOOTER//
+//Footer//
 
 .linkedin{
 position: absolute;
