@@ -4,21 +4,20 @@ ref: index
 lang: fr
 ---
 
-<div class="home">
+    
 
-  <h1 class="page-heading">Accueil</h1>
+<div id="slider">
+    
+    <figure>
+    
+    <img src="/golombekvincent.github.io/img/Sword.jpg"/>
+    <img src="/golombekvincent.github.io/img/Fight.jpg"/>
+    <img src="/golombekvincent.github.io/img/Sword.jpg"/>
 
-  <ul class="post-list">
-    {% assign posts=site.posts | where:"lang", page.lang %}
-    {% for post in posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
+    </figure>    
+    
+    
 </div>
+
+    
+    

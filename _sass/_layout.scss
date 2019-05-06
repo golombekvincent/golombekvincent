@@ -11,13 +11,14 @@
 
 .site-nav {
     float: right;
-    line-height: 56px;
+    line-height: 80px;
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
+        font-size:20px;
         color: #f2e0c8;
         line-height: $base-line-height;
 
@@ -87,13 +88,13 @@
  */
 .site-footer {
     background-color:#40565c;
-    padding: $spacing-unit 0;
 }
 
 .footer-heading {
     color:#f2e0c8;
     font-size: 18px;
     float:right;
+    margin-top: $spacing-unit / 2;
     margin-bottom: $spacing-unit / 2;
 }
 
@@ -110,6 +111,7 @@
 
 .footer-col {
     float: left;
+    margin-top: $spacing-unit / 2;
     margin-bottom: $spacing-unit / 2;
     padding-left: $spacing-unit / 2;
 }
@@ -155,9 +157,9 @@
 /**
  * Page content
  */
-.page-content {
-    padding: $spacing-unit 0;
-}
+//.page-content {
+//padding: $spacing-unit 0;}
+
 
 .page-heading {
     font-size: 20px;

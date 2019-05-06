@@ -47,16 +47,18 @@ $on-laptop:        800px;
 
 //Menu//
 
-.site-logo{
-    height:75px;
-    width:75px;
-    line-height: 56px;
-    margin-bottom: 0;
+.site-logo{  
+    height:80px;
+    width:80px;
     float: left;
 }
 
 
 #choix_lang{
+    position: absolute;
+    z-index: 10;
+    text-align: right; 
+    line-height: 2em; 
     display: flex;
     flex-direction: row-reverse;
     
@@ -69,6 +71,49 @@ $on-laptop:        800px;
     text-transform: uppercase;
     
 }
+
+// Slider //
+
+#slider{
+  overflow:hidden;   
+}
+
+
+#slider figure{
+position: relative;
+width:500%;
+margin: 0;
+left: 0;
+animation: 15s slider infinite;
+}
+
+#slider figure img{
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider{
+    0%{
+        left:0;
+    }
+    
+    50%{
+        left:0;
+    }
+    
+    55%{
+        left:-100%;
+    }
+    90%{
+        left:-100%;
+    }
+    100%{
+        left:-200%;
+    }
+
+}
+
+
 //Footer//
 
 .linkedin{
