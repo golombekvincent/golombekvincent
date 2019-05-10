@@ -76,7 +76,7 @@ $on-laptop:        800px;
 // SLIDER //
 
 .slideshow-container{
-
+    
 width: 100%;
 
 position: relative;
@@ -106,23 +106,34 @@ display: none;
 
 }
 
+
+
+/// FLECHES SLIDER ///
+
+
+
+.fleche_gauche{
+    height:100px;
+    width:100px;
+}
+
+.fleche_droite{
+    height:100px;
+    width:100px;
+
+}
+
+
+
 .prev , .next{
 
 position: absolute;
 
 top: 50%;
 
-font-size: 18px;
-
-font-weight: bold;
-
 padding: 16px;
 
-margin-top: -22px;
-
-border-radius: 0 3px 3px 0;
-
-color: #fff;
+margin-top: -50px;
 
 cursor: pointer;
 
@@ -136,11 +147,7 @@ border-radius: 3px 0 0 3px;
 
 }
 
-.prev:hover,.next:hover{
 
-background-color: rgba(0,0,0,0.8);
-
-}
 
 .caption{
 color:#f2e0c8;
@@ -156,21 +163,10 @@ bottom: 42%;
 
 }
 
-///flèches slider///
+/// fin flèches slider///
 
 
-.fleche_gauche{
-    height:70px;
-    width:70px;
-    top:50%;
-}
 
-.fleche_droite{
-    height:70px;
-    width:70px;
-    top:50%;
-
-}
 
 
 
@@ -217,6 +213,11 @@ background-color: #333;
 
 }
 
+//// FIN SLIDER ///
+
+
+
+
 //H1,H2,H3//
 
 h1{
@@ -257,6 +258,29 @@ h2{
     
     
 }
+
+/// TITRE H2 INTRO ///
+
+.title_hist{
+    float:right; 
+    text-align: right;
+}
+
+.title_comp{
+    float:left;
+    text-align: left;   
+}
+
+
+
+.title_crea{
+    float:right;
+    text-align: right;  
+}
+
+
+
+/// INTRO HISTOIRE ///
 
 .text_histoire_intro{
     float: right;
@@ -346,6 +370,15 @@ background-color:#40565c;
     
 }
 
+.peintre{
+    float:left;
+    margin-top: 50px;
+    width:300px;
+    height: 300px;
+    border: solid 10px #ebd6bb; 
+     
+}
+
 
 
 .text_creations_intro{
@@ -370,6 +403,7 @@ background-color:#40565c;
 }
 
 .button_crea:hover{
+color:#f2e0c8;
 background-color:#40565c;
 }
 
