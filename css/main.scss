@@ -213,6 +213,20 @@ background-color: #333;
 
 }
 
+
+@include media-query($on-palm) {
+    .slideshow-container {
+    display: none;
+    }
+    .dots{
+        display: none;
+        
+    }
+
+}
+
+
+
 //// FIN SLIDER ///
 
 
@@ -238,26 +252,6 @@ h2{
 }
 
 
-//HISTOIRE INTRO//
-
-.histoire_intro{
-    
-    background-color: #f2e0c8;
-    width:100%;
-    height: 586px;
-    
-    
-}
-
-.chevalier{
-    float:left;
-    margin-top: 50px;
-    width:300px;
-    height: 300px;
-    border: solid 10px #ebd6bb;
-    
-    
-}
 
 /// TITRE H2 INTRO ///
 
@@ -277,10 +271,34 @@ h2{
     float:right;
     text-align: right;  
 }
+///////
 
 
 
-/// INTRO HISTOIRE ///
+
+
+//HISTOIRE INTRO//
+
+.histoire_intro{
+    
+    background-color: #f2e0c8;
+    width:100%;
+    min-height: 586px;
+    
+    
+}
+
+.chevalier{
+    float:left;
+    margin-top: 50px;
+    width:300px;
+    height: 300px;
+    border: solid 10px #ebd6bb;
+    
+    
+}
+
+
 
 .text_histoire_intro{
     float: right;
@@ -290,6 +308,8 @@ h2{
     width:400px;
     
 }
+
+
 
 .button_hist{
     float:center;
@@ -315,7 +335,7 @@ background-color:#40565c;
 .competences_intro{
     background-color: #e8d3b6;
     width:100%;
-    height: 586px;
+    min-height: 586px;
     
 }
 
@@ -365,7 +385,7 @@ background-color:#40565c;
     
     background-color: #bd8c51;
     width:100%;
-    height: 586px;
+    min-height: 586px;
     
     
 }
