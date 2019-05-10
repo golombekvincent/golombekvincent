@@ -73,47 +73,160 @@ $on-laptop:        800px;
     
 }
 
-// Slider //
+// SLIDER //
 
-#slider{
-  overflow:hidden;   
-}
+.slideshow-container{
 
-#slider figure{
+width: 100%;
+
 position: relative;
-width:500%;
-margin: 0;
-left: 0;
-animation: 15s slider infinite;
+
+overflow: hidden;
+
+
 }
 
-#slider figure img{
-    width: 20%;
-    float: left;
+.numbers{
+
+position: absolute;
+
+top: 0;
+
+color: #f2f2f2;
+
+padding: 8px 12px;
+
+font-size: 12px;
+
 }
 
-@keyframes slider{
-    0%{
-        left:0;
-    }
-    
-    50%{
-        left:0;
-    }
-    
-    55%{
-        left:-100%;
-    }
-    90%{
-        left:-100%;
-    }
-    100%{
-        left:-200%;
-    }
+.myslides{
+
+display: none;
+
+}
+
+.prev , .next{
+
+position: absolute;
+
+top: 50%;
+
+font-size: 18px;
+
+font-weight: bold;
+
+padding: 16px;
+
+margin-top: -22px;
+
+border-radius: 0 3px 3px 0;
+
+color: #fff;
+
+cursor: pointer;
+
+}
+
+.next{
+
+right: 0;
+
+border-radius: 3px 0 0 3px;
+
+}
+
+.prev:hover,.next:hover{
+
+background-color: rgba(0,0,0,0.8);
+
+}
+
+.caption{
+color:#f2e0c8;
+text-shadow: black 2px 2px;
+
+text-align: center;
+
+position: absolute;
+
+bottom: 42%;
+
+
+
+}
+
+///flèches slider///
+
+
+.fleche_gauche{
+    height:70px;
+    width:70px;
+    top:50%;
+}
+
+.fleche_droite{
+    height:70px;
+    width:70px;
+    top:50%;
+
+}
+
+
+
+
+///CERCLES SLIDER ///
+
+.dots{
+
+z-index: 10;
+
+width: 13px;
+
+height: 13px;
+
+background: gray;
+
+display: inline-block;
+
+border-radius: 50%;
+
+cursor: pointer;
+
+}
+
+.fade{
+
+animation-name:fade;
+
+animation-duration:1.5s;
+
+}
+
+@keyframes fade{
+
+from {opacity: 0.4;}
+
+to {opacity: 1;}
+
+}
+
+.active, .dot:hover {
+
+background-color: #333;
 
 }
 
 //H1,H2,H3//
+
+h1{
+    padding: 0;
+    margin: 0;
+    font-family: Spectral;
+    font-size: 75px;
+    
+}
+
 
 h2{
     padding: 0;
@@ -124,7 +237,7 @@ h2{
 }
 
 
-//intro histoire//
+//HISTOIRE INTRO//
 
 .histoire_intro{
     
@@ -170,12 +283,27 @@ h2{
 background-color:#40565c;
 }
 
+
+
+/// COMPETENCES  INTRO ///
+
+
 .competences_intro{
     background-color: #e8d3b6;
     width:100%;
     height: 586px;
     
 }
+
+.magicien{
+    float:right;
+    margin-top: 50px;
+    width:300px;
+    height: 300px;
+    border: solid 10px #f2e0c8; 
+    
+}
+
 
 .text_competences_intro{
     
@@ -200,6 +328,48 @@ background-color:#40565c;
 
 
 .button_comp:hover{
+background-color:#40565c;
+}
+
+
+
+/// CREATION INTRO ///
+
+
+
+.creations_intro{
+    
+    background-color: #bd8c51;
+    width:100%;
+    height: 586px;
+    
+    
+}
+
+
+
+.text_creations_intro{
+    float: right;
+    text-align: justify;
+    margin-top: 50px;
+    height: 400px;
+    width:400px;
+    
+}
+
+.button_crea{
+    float:center;
+    margin-top: 25px;
+    margin-left:75px;
+    color: #bd8c51;
+    text-align: center;
+    height:40px;
+    width:260px;
+    background-color: #f2e0c8;
+    
+}
+
+.button_crea:hover{
 background-color:#40565c;
 }
 

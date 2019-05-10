@@ -6,17 +6,74 @@ lang: fr
 
     
 
-<div id="slider">
-    
-    <figure>
-    <img src="/golombekvincent.github.io/img/Sword.jpg"/>
-    <img src="/golombekvincent.github.io/img/Fight.jpg"/>
-    <img src="/golombekvincent.github.io/img/Sword.jpg"/>
+<div class="slideshow-container">
 
-    </figure>    
-    
-    
+<div class="myslides fade">
+
+<div class="numbers">1 / 4</div>
+
+<div><img src="/golombekvincent.github.io/img/Sword.jpg"></div>
+
+    <div class="wrapper"><div class="caption"><h1>GOLOMBEK Vincent</h1></div></div>
+
 </div>
+
+
+<div class="myslides fade">
+
+<div class="numbers">2 / 4</div>
+
+<div><img src="/golombekvincent.github.io/img/Fight.jpg"></div>
+
+<div class="caption">Text 2</div>
+
+</div>
+
+
+<div class="myslides fade">
+
+<div class="numbers">3 / 4</div>
+
+<div><img src="/golombekvincent.github.io/img/Sword.jpg"></div>
+
+<div class="caption">Text 3</div>
+
+</div>
+
+
+<div class="myslides fade">
+
+<div class="numbers">4 / 4</div>
+
+<div><img src="/golombekvincent.github.io/img/Fight.jpg"></div>
+
+<div class="caption">Text 4</div>
+
+</div>
+
+
+<a class="prev" onclick="plusSlides(-1)"><img class="fleche_gauche" src="/golombekvincent.github.io/img/fleche_gauche.png"/></a>
+
+<a class="next" onclick="plusSlides(1)"><img class="fleche_droite" src="/golombekvincent.github.io/img/fleche_droite.png"/></a>
+
+
+</div>
+
+
+<div style="text-align:center">
+
+<span class="dots" onclick="currentSlide(1)"></span> 
+
+<span class="dots" onclick="currentSlide(2)"></span> 
+
+<span class="dots" onclick="currentSlide(3)"></span> 
+
+<span class="dots" onclick="currentSlide(4)"></span> 
+
+</div>
+
+
+
 
 <div class="histoire_intro">
 
@@ -49,6 +106,23 @@ lang: fr
             Étudiant de 23 ans issu d'une <b>formation multimédia</b> à l’université de Strasbourg. Je suis dorénavant bien armé et fin prêt pour partir à l'aventure. Passionné par <b>le monde du graphisme</b> je suis paré à toute épreuve <b>maquettes, flyers, logo</b> rien ne m'arrête. Je ne recul devant rien. 
                 <a href="competences.html"><div class="button_comp">Découvrir mes compétences</div></a>
         </div>
+        <img class="magicien" src="img/Magicien.jpg"/>
+        
+    </div>
+    
+</div>
+
+<div class="creations_intro">
+
+    <div class="wrapper">
+    
+        <div class="text_creations_intro">
+    
+            
+    <h2><b>Compétences</b></h2>
+            Étudiant de 23 ans issu d'une <b>formation multimédia</b> à l’université de Strasbourg. Je suis dorénavant bien armé et fin prêt pour partir à l'aventure. Passionné par <b>le monde du graphisme</b> je suis paré à toute épreuve <b>maquettes, flyers, logo</b> rien ne m'arrête. Je ne recul devant rien. 
+                <a href="creations.html"><div class="button_crea">Découvrir mes créations</div></a>
+        </div>
         
         
     </div>
@@ -56,4 +130,58 @@ lang: fr
 </div>
 
     
-    
+
+<script type="text/javascript">
+
+var slideIndex = 1;
+
+showSlide(slideIndex);
+
+
+function plusSlides(n){
+
+showSlide(slideIndex += n);
+
+}
+
+
+function currentSlide(n) {
+
+showSlide(slideIndex = n);
+
+}
+
+
+function showSlide(n){
+
+var i;
+
+var slides = document.getElementsByClassName("myslides");
+
+var dots = document.getElementsByClassName("dots");
+
+if (n > slides.length) { slideIndex = 1};
+
+if (n < 1) { slideIndex = slides.length};
+
+for (i=0;i<slides.length;i++) {
+
+slides[i].style.display = "none";
+
+};
+
+for (i=0;i<dots.length;i++) {
+
+dots[i].className = dots[i].className.replace(" active","");
+
+};
+
+slides[slideIndex-1].style.display = "block";
+
+dots[slideIndex-1].className += " active";
+
+}
+
+
+
+</script>
