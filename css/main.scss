@@ -76,6 +76,7 @@ $on-laptop:        800px;
 // SLIDER //
 
 .slideshow-container{
+display: block;
     
 width: 100%;
 
@@ -84,6 +85,17 @@ position: relative;
 overflow: hidden;
 
 
+}
+
+.center{
+    
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%; 
+  min-height: 40vh;
+  max-height: 95vh;
+    
 }
 
 .numbers{
@@ -214,17 +226,6 @@ background-color: #333;
 }
 
 
-@include media-query($on-palm) {
-    .slideshow-container {
-    display: none;
-    }
-    .dots{
-        display: none;
-        
-    }
-
-}
-
 
 
 //// FIN SLIDER ///
@@ -271,6 +272,27 @@ h2{
     float:right;
     text-align: right;  
 }
+
+@media screen and (max-width: 600px) {
+.title_hist{
+    float:none; 
+    text-align: center;
+}
+
+.title_comp{
+    float:none;
+    text-align: center;   
+}
+
+
+
+.title_crea{
+    float:none;
+    text-align: center;  
+}
+}
+
+
 ///////
 
 
@@ -305,7 +327,7 @@ h2{
     text-align: justify;
     margin-top: 50px;
     height: 400px;
-    width:400px;
+    max-width:400px;
     
 }
 
@@ -326,6 +348,36 @@ h2{
 .button_hist:hover{
 background-color:#40565c;
 }
+
+////////////////////////////////
+
+@media screen and (max-width: 600px) {
+
+.chevalier{
+    float:none;
+    
+}
+
+
+
+.text_histoire_intro{
+    float: none;
+    text-align: justify;
+    margin-top: 50px;
+    
+}
+
+
+
+.button_hist{
+    float:center;
+    margin-top: 25px;
+    margin-left:0;
+    color: #f2e0c8;
+    
+}
+}
+    
 
 
 
@@ -355,7 +407,7 @@ background-color:#40565c;
     text-align: justify;
     margin-top: 50px;
     height: 400px;
-    width:400px;
+    max-width:400px;
     
 }
 
