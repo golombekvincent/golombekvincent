@@ -6,16 +6,21 @@ lang: fr
 order: 1
 ---
 
-Ceci est le thème par défaut de Jekyll. Vous pouvez en savoir plus sur les façons de personnaliser votre propre thème, ainsi que la documation de Jekyll sur [jekyllrb.com](http://jekyllrb.com/)
+<style type="text/css">
+    body{background-color: #f2e0c8;}
+    
+</style>
 
-Vous pouvez trouver ce thème multilingue sur :
-{% include icon-github.html username="sylvaindurand" %} /
-[multilingual-jekyll](https://github.com/sylvaindurand/multilingual-jekyll)
+<div class="wrapper">
+    <img class="mon_histoire" src="img/mon_histoire.jpg"/>
+    
+<h2>La passion des langues étrangères</h2>
+    <div class="histoire-langues">
+<p>Il n’y a pas si longtemps que ça, j’étais un jeune bachelier tout droit sorti d’une filière scientifique avec des facilités en langues. J’avais donc décidé de suivre une formation en langues étrangères appliquées dans la contrée de Strasbourg. J’ai pu étudier de manière très avancée la beauté et la complexité des langues avec lesquelles je me suis passionné au cours d’échanges culturels et professionnels.</p><p>En effet, je peux aisément communiquer en allemand ou en anglais que ce soit à l’oral ou à l’écrit. Je suis également capable de traduire un texte en plusieurs langues. Mon stage de dernière année en licence au sein de l’entreprise allemande <a href="https://www.acsueppmayer.de/" target="_blank">AC Süppmayer GmbH</a> m’a notamment permis de prouver que j’étais capable de communiquer et travailler au sein d’une équipe essentiellement composée d’employés allemands. Cette formation m’a également permis de suivre l’option HTML, ce fût mon premier contact avec le monde du web.</p> 
+    </div>
 
-Vous pouvez trouver le code source de ce nouveau thème Jekyll sur :
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-Enfin, le code source de Jekyll est présenté sur
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+<h2>Graphiste print et web en herbe</h2>
+    <div class="histoire-langues">
+<p>J’ai poursuivi ma voie en suivant un master en linguistique informatique et traduction. Cependant je me suis vite rendu compte que j’avais une préférence pour la création graphique plutôt que la programmation. En effet, j’ai développé une véritable passion pour les montages photos que je réalise avec Adobe Photoshop. Par la suite, la participation à la réalisation d’un catalogue suisse-allemand en plaçant correctement divers éléments visuels et textuels m’a permise de développer mes capacités en graphisme print lors de mon travail en intérim chez « SDAG », un distributeur d'accessoires pour la communication visuelle. Cette pratique du métier de graphiste print a révélé mon envie de faire de ce domaine mon métier. Par conséquent, j’ai rejoint le master 2 CAWEB en alternance avec un poste en tant qu’apprenti webmaster à la mairie de Forbach. J’ai pu mettre en pratique l’ensemble de mes connaissances acquises dans le multimédia allant de la réalisation de visuels pour les réseaux sociaux à la réalisation d’une brochure.</p>
+    </div>
+</div>

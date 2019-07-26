@@ -239,7 +239,7 @@ h1{
     padding: 0;
     margin: 0;
     font-family: Spectral;
-    font-size: 75px;
+    font-size: 50px;
     
 }
 
@@ -528,6 +528,28 @@ background-repeat: no-repeat;
     width: 30px;
 }
 
+
+/// PAGE HISTOIRE ///
+
+.post-title{
+
+    margin-top: 5%;
+
+}
+
+.histoire-langues{
+    text-align: justify; 
+    
+}
+
+///image page histoire///
+
+.mon_histoire{
+    max-height: 100%;
+    max-width: 100%;
+    margin-bottom: 5%;
+    
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
