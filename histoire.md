@@ -6,10 +6,6 @@ lang: fr
 order: 1
 ---
 
-<style type="text/css">
-    body{background-color: #f2e0c8;}
-    
-</style>
 
 <div class="wrapper">
     <img class="mon_histoire" src="img/mon_histoire.jpg"/>
