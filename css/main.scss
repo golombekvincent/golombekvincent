@@ -252,6 +252,15 @@ h2{
     
 }
 
+h3{
+    padding: 0;
+    margin: 0;
+    font-family: Spectral;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
 
 
 /// TITRE H2 INTRO ///
@@ -568,6 +577,37 @@ background-repeat: no-repeat;
 .button_cv:hover{
 background-color:#bd8c51;
 border:5px outset orange;
+}
+
+
+/// PAGE COMPETENCES ///
+
+.Justify{
+text-align: justify;
+margin-bottom: 10%;
+    
+}
+
+
+.conteneur_comp{
+    margin:0 3% 0 3%;
+    padding: 0;
+    float: left;
+    text-align: center;
+       
+}
+
+
+
+@media screen and (max-width: 680px) {
+
+    .conteneur_comp{
+    float: none;
+    margin-left: auto;
+    margin-right: auto
+        
+    }
+    
 }
 
 
