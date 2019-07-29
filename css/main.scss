@@ -55,6 +55,7 @@ $on-laptop:        800px;
 
 
 #choix_lang{
+    color: #40565c !important;
     position: absolute;
     z-index: 10;
     right:5px;
@@ -193,7 +194,7 @@ width: 13px;
 
 height: 13px;
 
-background: gray;
+background: #bd8c51;
 
 display: inline-block;
 
@@ -221,7 +222,7 @@ to {opacity: 1;}
 
 .active, .dot:hover {
 
-background-color: #333;
+background-color: #40565c;
 
 }
 
@@ -324,7 +325,7 @@ h3{
     margin-top: 50px;
     width:300px;
     height: 300px;
-    border: solid 10px #ebd6bb;
+    border: solid 10px #40565c;
     
     
 }
@@ -350,12 +351,14 @@ h3{
     text-align: center;
     height:40px;
     width:260px;
-    background-color: #bd8c51;
+    background-color: #40565c;
+    border:5px outset grey;
     
 }
 
 .button_hist:hover{
-background-color:#40565c;
+background-color:#bd8c51;
+border:5px outset orange;
 }
 
 ////////////////////////////////
@@ -364,6 +367,8 @@ background-color:#40565c;
 
 .chevalier{
     float:none;
+    margin-right: auto;
+    margin-left: auto;
     
 }
 
@@ -379,11 +384,11 @@ background-color:#40565c;
 
 
 .button_hist{
-    float:center;
+    float:none;
     margin-top: 25px;
     margin-left:0;
-    color: #f2e0c8;
-    
+    margin-right: auto;
+    margin-left: auto;
 }
 }
     
@@ -405,7 +410,7 @@ background-color:#40565c;
     margin-top: 50px;
     width:300px;
     height: 300px;
-    border: solid 10px #f2e0c8; 
+    border: solid 10px #40565c; 
     
 }
 
@@ -415,39 +420,37 @@ background-color:#40565c;
     float: left;
     text-align: justify;
     margin-top: 50px;
-    height: 400px;
+    max-height: 400px;
     max-width:400px;
     
 }
 
 .button_comp{
-    float:center;
     margin-top: 25px;
     margin-left:35px;
     color: #f2e0c8;
     text-align: center;
     height:40px;
     width:315px;
-    background-color: #bd8c51;   
+    background-color: #40565c;
+    border:5px outset grey;
 }
 
 
 .button_comp:hover{
-background-color:#40565c;
+background-color:#bd8c51;
+border:5px outset orange;
 }
 
 
 
 /// CREATION INTRO ///
 
-
-
 .creations_intro{
     
-    background-color: #bd8c51;
+    background-color: #f2e0c8;
     width:100%;
     min-height: 586px;
-    
     
 }
 
@@ -456,7 +459,7 @@ background-color:#40565c;
     margin-top: 50px;
     width:300px;
     height: 300px;
-    border: solid 10px #ebd6bb; 
+    border: solid 10px #e8d3b6;
      
 }
 
@@ -475,17 +478,18 @@ background-color:#40565c;
     float:center;
     margin-top: 25px;
     margin-left:75px;
-    color: #bd8c51;
+    color: #f2e0c8;
     text-align: center;
     height:40px;
     width:260px;
-    background-color: #f2e0c8;
+    background-color: #40565c;
+    border:5px outset grey;
     
 }
 
 .button_crea:hover{
-color:#f2e0c8;
-background-color:#40565c;
+background-color:#bd8c51;
+border:5px outset orange;
 }
 
 
@@ -610,22 +614,18 @@ margin-bottom: 10%;
     
 }
 
-
 ////PAGE CREATIONS///
-
-
 
 .gallery img{
     padding: 0;
     margin: 5% 10px 0 0;
     transition: 0.5s;
-    
 }
+
 
 .gallery img:hover{
     filter:grayscale(100%);
     transform: scale(1.1);
-    
 }
 
 
