@@ -48,8 +48,8 @@ $on-laptop:        800px;
 //Menu//
 
 .site-logo{  
-    height:80px;
-    width:80px;
+    height:100px;
+    width:100px;
     float: left;
 }
 
@@ -89,14 +89,12 @@ overflow: hidden;
 }
 
 .center{
-    
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 100%; 
-  min-height: 40vh;
   max-height: 95vh;
-    
+  min-height: 50vh; 
 }
 
 .numbers{
@@ -125,28 +123,14 @@ display: none;
 
 
 
-.fleche_gauche{
-    height:100px;
-    width:100px;
-}
-
-.fleche_droite{
-    height:100px;
-    width:100px;
-
-}
-
-
-
 .prev , .next{
 
 position: absolute;
 
-top: 50%;
+top: 40%;
 
 padding: 16px;
 
-margin-top: -50px;
 
 cursor: pointer;
 
@@ -156,25 +140,62 @@ cursor: pointer;
 
 right: 0;
 
-border-radius: 3px 0 0 3px;
+}
 
+.fleche_gauche{
+    width:100px;
+    height:auto;
+}
+
+.fleche_droite{
+    width:100px;
+    height:auto;
+    
+
+}
+
+@media screen and (max-width: 600px) {
+
+    .fleche_gauche{
+    width:15%;
+    height:auto;
+        
+    }
+    .fleche_droite{
+    width:15%;
+    height:auto;
+    
+
+}
+    
 }
 
 
 
 .caption{
-color:#f2e0c8;
-text-shadow: black 2px 2px;
-
-text-align: center;
-
+width: 100%;
 position: absolute;
-
-bottom: 42%;
-
-
+top:40%;
 
 }
+
+.caption h1{
+
+text-align: center;
+color:#f2e0c8;
+font-size: 100px;
+text-shadow: black 2px 2px;
+    
+}
+
+@media screen and (max-width: 600px) {
+
+.caption h1{
+
+font-size: 10vw;
+    
+    }}
+
 
 /// fin flèches slider///
 
@@ -262,45 +283,29 @@ h3{
     
 }
 
-
+@media screen and (max-width: 600px) {
+    h2{
+        font-size: 40px;}
+    
+}
+    
 
 /// TITRE H2 INTRO ///
 
-.title_hist{
-    float:right; 
+.title_right{
     text-align: right;
 }
 
-.title_comp{
-    float:left;
+.title_left{
     text-align: left;   
 }
 
 
 
-.title_crea{
-    float:right;
-    text-align: right;  
-}
-
 @media screen and (max-width: 600px) {
-.title_hist{
-    float:none; 
+.text_center{
     text-align: center;
-}
-
-.title_comp{
-    float:none;
-    text-align: center;   
-}
-
-
-
-.title_crea{
-    float:none;
-    text-align: center;  
-}
-}
+}}
 
 
 ///////
@@ -311,20 +316,13 @@ h3{
 
 //HISTOIRE INTRO//
 
-.histoire_intro{
-    
-    background-color: #f2e0c8;
-    width:100%;
-    min-height: 586px;
-    
-    
-}
 
-.chevalier{
+
+.img_left{
     float:left;
     margin-top: 50px;
-    width:300px;
-    height: 300px;
+    max-width:300px;
+    height: auto;
     border: solid 10px #40565c;
     
     
@@ -332,19 +330,18 @@ h3{
 
 
 
-.text_histoire_intro{
+.text_right{
     float: right;
     text-align: justify;
     margin-top: 50px;
-    height: 400px;
     max-width:400px;
+    height: auto;
     
 }
 
 
 
 .button_hist{
-    float:center;
     margin-top: 25px;
     margin-left:75px;
     color: #f2e0c8;
@@ -361,38 +358,6 @@ background-color:#bd8c51;
 border:5px outset orange;
 }
 
-////////////////////////////////
-
-@media screen and (max-width: 600px) {
-
-.chevalier{
-    float:none;
-    margin-right: auto;
-    margin-left: auto;
-    
-}
-
-
-
-.text_histoire_intro{
-    float: none;
-    text-align: justify;
-    margin-top: 50px;
-    
-}
-
-
-
-.button_hist{
-    float:none;
-    margin-top: 25px;
-    margin-left:0;
-    margin-right: auto;
-    margin-left: auto;
-}
-}
-    
-
 
 
 /// COMPETENCES  INTRO ///
@@ -408,8 +373,8 @@ border:5px outset orange;
 .magicien{
     float:right;
     margin-top: 50px;
-    width:300px;
-    height: 300px;
+    max-width:300px;
+    height: auto;
     border: solid 10px #40565c; 
     
 }
@@ -420,8 +385,8 @@ border:5px outset orange;
     float: left;
     text-align: justify;
     margin-top: 50px;
-    max-height: 400px;
     max-width:400px;
+    height: auto;
     
 }
 
@@ -446,24 +411,13 @@ border:5px outset orange;
 
 /// CREATION INTRO ///
 
-.creations_intro{
+.fond_beige{
     
     background-color: #f2e0c8;
     width:100%;
     min-height: 586px;
     
 }
-
-.peintre{
-    float:left;
-    margin-top: 50px;
-    width:300px;
-    height: 300px;
-    border: solid 10px #e8d3b6;
-     
-}
-
-
 
 .text_creations_intro{
     float: right;
@@ -491,7 +445,6 @@ border:5px outset orange;
 background-color:#bd8c51;
 border:5px outset orange;
 }
-
 
 
 
@@ -616,6 +569,7 @@ margin-bottom: 10%;
 
 ////PAGE CREATIONS///
 
+
 .gallery img{
     padding: 0;
     margin: 5% 10px 0 0;
@@ -628,6 +582,33 @@ margin-bottom: 10%;
     transform: scale(1.1);
 }
 
+@media screen and (max-width: 600px) {
+
+    .gallery img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top:5%;
+    } 
+    
+
+    
+}
+//////////////RESPONSIVE//////////////////
+
+@media screen and (max-width: 600px) {
+
+.responsive{
+    display: block;
+    float:none;
+    margin-right: auto;
+    margin-left: auto;
+    }
+    
+    .espace_bas{
+        margin-bottom: 5%;
+        
+    }}
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

@@ -6,7 +6,6 @@ lang: fr
 order: 3
 ---
 <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
-<script src="javascript/lightbox-plus-jquery.min.js"></script>
 
 <div class="wrapper">
 
@@ -18,7 +17,7 @@ order: 3
     <img src="img/img1_thumb.jpg"></a>
 
 <a href="img/img2.jpg" data-lightbox="mygallery" data-title="Pulp Fiction revisité">
-    <img src="img/img2_thumb.jpg"></a>
+   <img src="img/img2_thumb.jpg"></a>
 
 <a href="img/img1.jpg" data-lightbox="mygallery">
     <img src="img/img1_thumb.jpg"></a>
@@ -28,10 +27,7 @@ order: 3
     
     
     
-</div> 
-    
-    
-    
-    
     
 </div>
+
+<script src="javascript/lightbox-plus-jquery.min.js"></script>
