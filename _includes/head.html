@@ -5,7 +5,9 @@
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title[page.lang] | escape }}{% endif %} | GOLOMBEK Vincent</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description[page.lang] }}{% endif %}">
-  <link rel="shortcut icon" type="image/png" href="favicon.png">  
+  <meta property="og:image" content="https://golombekvincent.github.io/img/open_graph.jpg" />
+  <link rel="shortcut icon" type="image/png" href="favicon.png">
+
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
