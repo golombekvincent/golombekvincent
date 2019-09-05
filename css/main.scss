@@ -339,25 +339,29 @@ h3{
     
 }
 
+.button_accueil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+    margin-bottom: 15%;
+}
 
-
-.button_hist{
-    margin-top: 25px;
-    margin-left:75px;
+.button_intro{
+    display: inline-block;
+    padding: 10px 20px;
     color: #f2e0c8;
     text-align: center;
-    height:40px;
-    width:260px;
     background-color: #40565c;
     border:5px outset grey;
     
 }
 
-.button_hist:hover{
+.button_intro:hover{
+color: #f2e0c8;
 background-color:#bd8c51;
 border:5px outset orange;
 }
-
 
 
 /// COMPETENCES  INTRO ///
@@ -390,23 +394,6 @@ border:5px outset orange;
     
 }
 
-.button_comp{
-    margin-top: 25px;
-    margin-left:35px;
-    color: #f2e0c8;
-    text-align: center;
-    height:40px;
-    width:315px;
-    background-color: #40565c;
-    border:5px outset grey;
-}
-
-
-.button_comp:hover{
-background-color:#bd8c51;
-border:5px outset orange;
-}
-
 
 
 /// CREATION INTRO ///
@@ -427,25 +414,6 @@ border:5px outset orange;
     width:400px;
     
 }
-
-.button_crea{
-    float:center;
-    margin-top: 25px;
-    margin-left:75px;
-    color: #f2e0c8;
-    text-align: center;
-    height:40px;
-    width:260px;
-    background-color: #40565c;
-    border:5px outset grey;
-    
-}
-
-.button_crea:hover{
-background-color:#bd8c51;
-border:5px outset orange;
-}
-
 
 
 
@@ -519,23 +487,28 @@ background-repeat: no-repeat;
 
 //button CV//
 
-.button_cv{
-    margin-left: auto;
-    margin-right: auto;
-    width: 150px;
-    height: 35px;
-    color: #f2e0c8;
-    text-align: center;
-    border:5px outset grey;
-    background-color: #40565c;
+.container{
+display: flex;
+  justify-content: center;
+  align-items: center;
     
 }
 
-.button_cv:hover{
-background-color:#bd8c51;
-border:5px outset orange;
+.button_cv{
+    margin:auto;
+    padding: 10px 20px;
+    color: #f2e0c8;
+    border:5px outset grey;
+    background-color: #40565c;
+    display: inline-block;
+    text-align: center;
+
 }
 
+.button_cv:hover{
+color: #f2e0c8;
+border:5px outset orange;
+}
 
 /// PAGE COMPETENCES ///
 
@@ -581,15 +554,40 @@ margin-bottom: 10%;
     filter:grayscale(100%);
     transform: scale(1.1);
 }
+.centrer_img{
+    display: inline-block;
+}
 
 @media screen and (max-width: 600px) {
+    .centrer_img{
+        display: inline-block;
+        width:100%;
+        text-align: center;
+    }
 
     .gallery img{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
     margin-top:5%;
     }}
+
+
+////////PAGE CONTACT/////////////////
+
+.button_contact{
+    padding: 10px 20px;
+    color: #f2e0c8;
+    text-align: center;
+    border:5px outset grey;
+    background-color: #40565c;
+    
+}
+
+.button_contact:hover{
+color: #f2e0c8;
+background-color:#bd8c51;
+border:5px outset orange;
+}
+
+
 
 //////////////RESPONSIVE//////////////////
 

@@ -9,22 +9,49 @@ order: 3
 
 <div class="wrapper">
 
-<p style="text-align:justify;">Il n’y a pas si longtemps que ça, j’étais un jeune bachelier tout droit sorti d’une filière scientifique avec des facilités en langues. J’avais donc décidé de suivre une formation en langues étrangères appliquées dans la contrée de Strasbourg. J’ai pu étudier de manière très avancée la beauté et la complexité des langues avec lesquelles je me suis passionné au cours d’échanges culturels et professionnels.</p>
+<p style="text-align:justify;">Retrouvez ici une sélection de mon travail. Certains projets ont été réalisé durant mon année en master CAWEB ou durant mon apprentissage à la Ville de Forbach, d’autres sont des expérimentations personnelles.</p>
     
 <div class="gallery">
     
+<div class="centrer_img">
 <a href="img/img1.jpg" data-lightbox="mygallery" data-title="Hamburger">
     <img src="img/img1_thumb.jpg"></a>
+</div>
 
+<div class="centrer_img">
 <a href="img/img2.jpg" data-lightbox="mygallery" data-title="Pulp Fiction revisité">
    <img src="img/img2_thumb.jpg"></a>
+</div>
 
-<a href="img/img1.jpg" data-lightbox="mygallery">
-    <img src="img/img1_thumb.jpg"></a>
+<div class="centrer_img">
+<a href="img/img3.jpg" data-lightbox="mygallery" data-title="Passage à l'heure d'été">
+    <img src="img/img3_thumb.jpg"></a>
+</div>
 
-<a href="img/img2.jpg" data-lightbox="mygallery">
-    <img src="img/img2_thumb.jpg"></a>
-    
+<div class="centrer_img">
+<a href="img/img4.jpg" data-lightbox="mygallery" data-title="Carte des quartiers de la ville de Forbach">
+    <img src="img/img4_thumb.jpg"></a>
+</div>
+
+<div class="centrer_img">
+<a href="img/img5.jpg" data-lightbox="mygallery" data-title="Portrait réalisé sous Photoshop">
+    <img src="img/img5_thumb.jpg"></a>
+</div>
+
+<div class="centrer_img">
+<a href="img/img6.jpg" data-lightbox="mygallery" data-title="Dino">
+    <img src="img/img6_thumb.jpg"></a>
+</div>
+
+<div class="centrer_img">    
+<a href="img/img7.jpg" data-lightbox="mygallery" data-title="Fête du travail">
+    <img src="img/img7_thumb.jpg"></a>
+</div>
+
+<div class="centrer_img">
+<a href="img/img8.jpg" data-lightbox="mygallery" data-title="Hulk Smash!">
+    <img src="img/img8_thumb.jpg"></a>
+</div>    
     
     
     
