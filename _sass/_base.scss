@@ -37,9 +37,24 @@ ul, ol, dl, figure,
 
 
 p{
-    padding-bottom: 5%;
+    padding-bottom: 5%;  
+}
+
+@media screen and (max-width: 600px) {
+    
+    body{
+        font-size: 18px;
+    }
+    
+    p{
+    padding-bottom: 10%;  
+}
     
 }
+
+
+
+
 
 
 /**
