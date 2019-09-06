@@ -19,6 +19,7 @@
     }
 
     .page-link {
+        font-weight: none;
         font-size:25px;
         color: #f2e0c8;
         line-height: $base-line-height;
@@ -209,14 +210,11 @@
 }
 
 .post-title {
-    font-size: 70px;
+    margin-top: 5%;
     font-weight:bold;
     letter-spacing: -1px;
     line-height: 1;
 
-    @include media-query($on-laptop) {
-        font-size: 60px;
-    }
 }
 
 ///hauteur minimum du contenu///
@@ -224,21 +222,4 @@
 .post-content {
     min-height: 78vh;
     margin-bottom: $spacing-unit;
-
-
-    h3 {
-        font-size: 25px;
-
-        @include media-query($on-laptop) {
-            font-size: 21px;
-        }
-    }
-
-    h4 {
-        font-size: 20px;
-
-        @include media-query($on-laptop) {
-            font-size: 18px;
-        }
-    }
 }

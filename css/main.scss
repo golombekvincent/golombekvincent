@@ -56,6 +56,7 @@ $on-laptop:        800px;
 
 #choix_lang{
     color: #40565c !important;
+    font-weight: bold;
     position: absolute;
     z-index: 10;
     right:5px;
@@ -201,8 +202,32 @@ font-size: 10vw;
 
 ///CERCLES SLIDER ///
 
-.dots{
+.hold_dots{
+top:95vh;
+position: absolute;
+z-index: 50;
+display: inline-block;
+text-align:center;
+width: 100%;
+}
 
+@media (min-width: 600px) and (max-width: 1200px) {
+    
+.hold_dots{
+top:55vh;
+
+}}    
+
+@media screen and (max-width: 600px) {
+    
+.hold_dots{
+top:55%;
+
+}}
+
+.dots{
+ 
+    
 z-index: 10;
 
 width: 13px;
@@ -255,13 +280,13 @@ h1{
     padding: 0;
     margin: 0;
     font-family: Spectral;
-    font-size: 50px;
+    font-size: 70px;
     
 }
 
 
 h2{
-    padding: 0;
+    padding: 3%;
     margin: 0;
     font-family: Spectral;
     font-size: 50px;
@@ -278,10 +303,16 @@ h3{
 }
 
 @media screen and (max-width: 600px) {
+    
+    h1{
+        font-size: 55px;}
+    
     h2{
-        font-size: 40px;}
+        font-size: 38px;}
     
 }
+    
+
     
 
 /// TITRE H2 INTRO ///
@@ -304,6 +335,19 @@ h3{
 
 ///////
 
+
+///liens textes///
+
+p a{
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+p a:hover{
+    text-decoration: underline;
+    
+}
 
 
 
@@ -459,12 +503,6 @@ background-repeat: no-repeat;
 
 /// PAGE HISTOIRE ///
 
-.post-title{
-
-    margin-top: 5%;
-
-}
-
 .histoire-langues{
     text-align: justify; 
     
@@ -501,6 +539,7 @@ display: flex;
 
 .button_cv:hover{
 color: #f2e0c8;
+background-color:#bd8c51;
 border:5px outset orange;
 }
 
