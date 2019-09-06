@@ -15,7 +15,7 @@ order: 6
 
 <div class="conteneur_comp">
     
-<img src="img/Kompetenzen/Competences_logo.png"/>
+<img src="img/Competences_logo.png"/>
 <h3>Logo</h3>
 
 </div>
