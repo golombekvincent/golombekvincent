@@ -1,7 +1,7 @@
 /**
  * Reset some basic elements
  */
-body, p, {
+body{
     margin: 0;
     padding: 0;
 }
@@ -24,7 +24,6 @@ body {
 }
 
 
-
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
@@ -35,6 +34,12 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+
+
+p{
+    padding-bottom: 5%;
+    
+}
 
 
 /**

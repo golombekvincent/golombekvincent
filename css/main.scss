@@ -304,11 +304,11 @@ h3{
 
 @media screen and (max-width: 600px) {
     
-    h1{
-        font-size: 55px;}
+    h1{ padding-top: 10%;
+        font-size: 48px;}
     
     h2{
-        font-size: 38px;}
+        font-size: 35px;}
     
 }
     
@@ -340,14 +340,9 @@ h3{
 
 p a{
     font-weight: bold;
-    text-decoration: underline;
     
 }
 
-p a:hover{
-    text-decoration: underline;
-    
-}
 
 
 
