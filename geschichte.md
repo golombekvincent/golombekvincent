@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Geschichte
-permalink: /geschichte/
 ref: histoire
 lang: de
 order: 5
