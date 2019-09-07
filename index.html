@@ -4,7 +4,7 @@ ref: index
 lang: fr
 ---
 
-    
+<!-- SLIDER -->
 
 <div class="slideshow-container">
 
@@ -21,15 +21,15 @@ lang: fr
 <div class="myslides fade">
 
 <div class="caption"><h1>Graphiste</h1></div>
-<img class="center" src="/golombekvincent.github.io/img/Sword.jpg">
+<img class="center" src="/golombekvincent.github.io/img/background2.jpg">
 
 
 </div>
 
 
 <div class="myslides fade">
-
-<div><img class="center" src="/golombekvincent.github.io/img/Fight.jpg"></div>
+<div class="caption"><h1>Master<br>CAWEB</h1></div>
+<div><img class="center" src="/golombekvincent.github.io/img/background3.jpg"></div>
 
 </div>
 
@@ -53,9 +53,12 @@ lang: fr
     
 </div>
 
+<!-- INTRODUCTION -->
+
 <div class="wrapper">
 <p class="intro">Laissez moi vous conter le parcours d'un homme.</p>
 </div>
+
 
 <!-- BLOC HISTOIRE -->
 
@@ -131,57 +134,4 @@ lang: fr
 
     
 
-<script type="text/javascript">
-
-var slideIndex = 1;
-
-showSlide(slideIndex);
-
-
-function plusSlides(n){
-
-showSlide(slideIndex += n);
-
-}
-
-
-function currentSlide(n) {
-
-showSlide(slideIndex = n);
-
-}
-
-
-function showSlide(n){
-
-var i;
-
-var slides = document.getElementsByClassName("myslides");
-
-var dots = document.getElementsByClassName("dots");
-
-if (n > slides.length) { slideIndex = 1};
-
-if (n < 1) { slideIndex = slides.length};
-
-for (i=0;i<slides.length;i++) {
-
-slides[i].style.display = "none";
-
-};
-
-for (i=0;i<dots.length;i++) {
-
-dots[i].className = dots[i].className.replace(" active","");
-
-};
-
-slides[slideIndex-1].style.display = "block";
-
-dots[slideIndex-1].className += " active";
-
-}
-
-
-
-</script>
+<script src="javascript/javascript.js"></script>
