@@ -51,7 +51,12 @@ order: 3
 <div class="centrer_img">
 <a href="img/img8.jpg" data-lightbox="mygallery" data-title="Hulk Smash!">
     <img src="img/img8_thumb.jpg"></a>
-</div>    
+</div>
+
+<div class="centrer_img">
+<a href="img/img9.jpg" data-lightbox="mygallery" data-title="Snap!">
+    <img src="img/img9_thumb.jpg"></a>
+</div> 
     
     
     
