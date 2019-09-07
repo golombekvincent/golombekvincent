@@ -10,7 +10,7 @@ order: 2
     
 <!-- Intro -->
 
-<p class="Justify">Tout au long de mon parcours personnel, scolaire et professionnel j'ai pu développer diverses compétences dans le domaine graphique.</p>
+<p>Tout au long de mon parcours personnel, scolaire et professionnel j'ai pu développer diverses compétences dans le domaine graphique.</p>
 
 <!-- Logo -->
 
@@ -21,7 +21,7 @@ order: 2
 
 </div>
 
-<p class="Justify">Un logo facilement reconnaissable et représentative pour une structure est primordiale pour se démarquer de ses concurrents. Cette identité visuelle véhicule l'image et les valeurs et doit être cohérent avec le secteur d'activité, moderne, durable et porteur de sens.</p>
+<p>Un logo facilement reconnaissable et représentative pour une structure est primordiale pour se démarquer de ses concurrents. Cette identité visuelle véhicule l'image et les valeurs et doit être cohérent avec le secteur d'activité, moderne, durable et porteur de sens.</p>
 
 
 
@@ -34,7 +34,7 @@ order: 2
 
 </div>
 
-<p class="Justify">Une image vaut mille mots pour transmettre un message à son public cible. Je peux créer des illustrations selon vos besoins et vos envies. Réalisé un visuel pour votre structure serait un honneur.</p>
+<p>Une image vaut mille mots pour transmettre un message à son public cible. Je peux créer des illustrations selon vos besoins et vos envies. Réalisé un visuel pour votre structure serait un honneur.</p>
 
 
 <!-- Print -->
@@ -46,7 +46,7 @@ order: 2
 
 </div>
 
-<p class="Justify">Crée un document clair et attrayant est dans mes cordes. Je suis capable de produire un support de communication de qualité respectant une charte graphique.</p>
+<p>Crée un document clair et attrayant est dans mes cordes. Je suis capable de produire un support de communication de qualité respectant une charte graphique.</p>
 
 
    

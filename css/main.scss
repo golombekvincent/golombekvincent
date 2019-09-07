@@ -326,7 +326,6 @@ h3{
 }}
 
 
-///////
 
 /// intro///
 
@@ -339,7 +338,11 @@ h3{
 }
 
 
+///justifier textes///
 
+p{
+text-align:justify;
+}
 ///liens textes///
 
 p a{
@@ -502,10 +505,7 @@ background-repeat: no-repeat;
 
 /// PAGE HISTOIRE ///
 
-.histoire-langues{
-    text-align: justify; 
-    
-}
+
 
 ///image page histoire///
 
@@ -516,7 +516,7 @@ background-repeat: no-repeat;
     
 }
 
-//button CV//
+//button dans les pages//
 
 .container{
 display: flex;
@@ -525,7 +525,7 @@ display: flex;
     
 }
 
-.button_cv{
+.button_page{
     margin:auto;
     padding: 10px 20px;
     color: #f2e0c8;
@@ -536,19 +536,13 @@ display: flex;
 
 }
 
-.button_cv:hover{
+.button_page:hover{
 color: #f2e0c8;
 background-color:#bd8c51;
 border:5px outset orange;
 }
 
 /// PAGE COMPETENCES ///
-
-.Justify{
-text-align: justify;
-margin-bottom: 10%;
-    
-}
 
 
 .conteneur_comp{
@@ -602,22 +596,7 @@ margin-bottom: 10%;
     }}
 
 
-////////PAGE CONTACT/////////////////
 
-.button_contact{
-    padding: 10px 20px;
-    color: #f2e0c8;
-    text-align: center;
-    border:5px outset grey;
-    background-color: #40565c;
-    
-}
-
-.button_contact:hover{
-color: #f2e0c8;
-background-color:#bd8c51;
-border:5px outset orange;
-}
 
 
 

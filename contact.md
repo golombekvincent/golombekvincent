@@ -18,7 +18,7 @@ Cliquez sur le bouton c’est plus rapide que par pigeon voyageur !
 </p>
 
 <div class="container">
-<a href="mailto:golombek.vincent@gmail.com&body=Bonjour," class="button_contact">Me contacter</a>
+<a href="mailto:golombek.vincent@gmail.com&body=Bonjour," class="button_page">Me contacter</a>
 </div>
 
 </div> 
