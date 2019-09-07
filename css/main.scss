@@ -607,13 +607,14 @@ input[name="name"], select {
   box-sizing: border-box;
 }
 
-input[name="message"], select {
+textarea{
   width: 100%;
-  padding: 50px 20px;
+  padding: 12px 20px;
   margin: 0 0 5% 0;
   display: inline-block;
   border: solid 2px #40565c; 
   box-sizing: border-box;
+  resize: none
 }
 
 input[type="email"], select {
