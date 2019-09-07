@@ -207,7 +207,7 @@ top:40%;
 ///CERCLES SLIDER ///
 
 .hold_dots{
-top:95vh;
+top:83vh;
 position: absolute;
 z-index: 50;
 display: inline-block;
@@ -215,24 +215,18 @@ text-align:center;
 width: 100%;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
     
 .hold_dots{
-top:45vh;
+top:80%;
 
 }}   
 
-//@media screen and (max-width: 600px) {//
-    
-//.hold_dots{//
-//top:55%;///
-
-//}}//
 
 .dots{
  
     
-z-index: 10;
+z-index: 50;
 
 width: 13px;
 
@@ -354,7 +348,10 @@ p a{
 
 //HISTOIRE INTRO//
 
-
+.push{
+    top:20%;
+    
+}
 
 .img_left{
     float:left;
