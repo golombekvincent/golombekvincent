@@ -6,13 +6,12 @@ lang: de
 order: 7
 ---
 
+
 <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
 
 <div class="wrapper">
 
-Meine Kreationen. 
-
-<p style="text-align:justify;">Retrouvez ici une sélection de mon travail. Certains projets ont été réalisé durant mon année en master CAWEB ou durant mon apprentissage à la Ville de Forbach, d’autres sont des expérimentations personnelles.</p>
+<p style="text-align:justify;">Hier finden Sie eine Auswahl meiner Arbeiten. Einige Projekte wurden während meines CAWEB-Masterjahres oder während meiner Ausbildung im Rathaus von Forbach realisiert, andere sind persönliche Experimente.</p>
     
 <div class="gallery">
     
@@ -22,22 +21,22 @@ Meine Kreationen.
 </div>
 
 <div class="centrer_img">
-<a href="img/img2.jpg" data-lightbox="mygallery" data-title="Pulp Fiction revisité">
+<a href="img/img2.jpg" data-lightbox="mygallery" data-title="Pulp Fiction, bessere Version">
    <img src="img/img2_thumb.jpg"></a>
 </div>
 
 <div class="centrer_img">
-<a href="img/img3.jpg" data-lightbox="mygallery" data-title="Passage à l'heure d'été">
+<a href="img/img3.jpg" data-lightbox="mygallery" data-title="Sommerzeitumstellung">
     <img src="img/img3_thumb.jpg"></a>
 </div>
 
 <div class="centrer_img">
-<a href="img/img4.jpg" data-lightbox="mygallery" data-title="Carte des quartiers de la ville de Forbach">
+<a href="img/img4.jpg" data-lightbox="mygallery" data-title="Karte der Vierteln von Forbach">
     <img src="img/img4_thumb.jpg"></a>
 </div>
 
 <div class="centrer_img">
-<a href="img/img5.jpg" data-lightbox="mygallery" data-title="Portrait réalisé sous Photoshop">
+<a href="img/img5.jpg" data-lightbox="mygallery" data-title="Portrait in Photoshop erstellt">
     <img src="img/img5_thumb.jpg"></a>
 </div>
 
@@ -47,14 +46,19 @@ Meine Kreationen.
 </div>
 
 <div class="centrer_img">    
-<a href="img/img7.jpg" data-lightbox="mygallery" data-title="Fête du travail">
+<a href="img/img7.jpg" data-lightbox="mygallery" data-title="Tag der Arbeit">
     <img src="img/img7_thumb.jpg"></a>
 </div>
 
 <div class="centrer_img">
 <a href="img/img8.jpg" data-lightbox="mygallery" data-title="Hulk Smash!">
     <img src="img/img8_thumb.jpg"></a>
-</div>    
+</div>
+
+<div class="centrer_img">
+<a href="img/img9.jpg" data-lightbox="mygallery" data-title="Snap!">
+    <img src="img/img9_thumb.jpg"></a>
+</div> 
     
     
     

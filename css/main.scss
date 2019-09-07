@@ -596,7 +596,53 @@ border:5px outset orange;
     }}
 
 
+///////PAGE CONTACT////////
 
+input[name="name"], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0 0 5% 0;
+  display: inline-block;
+  border: solid 2px #40565c; 
+  box-sizing: border-box;
+}
+
+input[name="message"], select {
+  width: 100%;
+  padding: 50px 20px;
+  margin: 0 0 5% 0;
+  display: inline-block;
+  border: solid 2px #40565c; 
+  box-sizing: border-box;
+}
+
+input[type="email"], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 0 0 5% 0;
+  display: inline-block;
+  border: solid 2px #40565c; 
+  box-sizing: border-box;
+}
+
+
+.button_contact{
+    margin:auto;
+    padding: 10px 20px;
+    color: #f2e0c8;
+    border:5px outset grey;
+    background-color: #40565c;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
+
+
+.button_contact:hover{
+color: #f2e0c8;
+background-color:#bd8c51;
+border:5px outset orange;
+}
 
 
 

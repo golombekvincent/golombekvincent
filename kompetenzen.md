@@ -5,11 +5,12 @@ ref: competences
 lang: de
 order: 6
 ---
+
 <div class="wrapper">
     
 <!-- Intro -->
 
-<p class="justifier">Tout au long de mon parcours personnel, scolaire et professionnel j'ai pu développer diverses compétences dans le domaine graphique.</p>
+<p>Im Laufe meiner persönlichen, akademischen und beruflichen Laufbahn konnte ich verschiedene Fähigkeiten im grafischen Bereich entwickeln.</p>
 
 <!-- Logo -->
 
@@ -20,7 +21,7 @@ order: 6
 
 </div>
 
-<p class="justifier">Un logo facilement reconnaissable et représentative pour une structure est primordiale pour se démarquer de ses concurrents. Cette identité visuelle véhicule l'image et les valeurs et doit être cohérent avec le secteur d'activité, moderne, durable et porteur de sens.</p>
+<p>Ein Logo, das leicht erkennbar und repräsentativ für eine Firma ist, ist unverzichtbar um sich von den Wettbewerbern hervorzustechen. Diese visuelle Identität vermittelt das Bild und die Werte  einer Firma. Sie musst mit dem Geschäftsfeld übereinstimmen, modern, nachhaltig und sinnvoll sein.</p>
 
 
 
@@ -29,11 +30,11 @@ order: 6
 <div class="conteneur_comp">
     
 <img src="img/Competences_visuel.png"/>
-<h3>Visuel</h3>
+<h3>Visuell</h3>
 
 </div>
 
-<p class="justifier">Une image vaut mille mots pour transmettre un message à son public cible. Je peux créer des illustrations selon vos besoins et vos envies. Réalisé un visuel pour votre structure serait un honneur.</p>
+<p>Ein Bild sagt mehr als tausend Worte, um eine Botschaft an seine Zielgruppe zu vermitteln. Ich kann Illustrationen nach Ihren Wünschen und Bedürfnissen erstellen. Es wäre mir eine Ehre, ein Visual für Ihre Firma zu erstellen.</p>
 
 
 <!-- Print -->
@@ -45,11 +46,8 @@ order: 6
 
 </div>
 
-<p class="Justify">Crée un document clair et attrayant est dans mes cordes. Je suis capable de produire un support de communication de qualité respectant une charte graphique.</p>
+<p>Die Erstellung eines klaren und attraktiven Dokuments liegt in meiner Reichweite. Ich bin in der Lage, eine qualitativ hochwertige Kommunikationsträger zu erstellen, die eine Corporate Identity respektiert.</p>
 
 
-   
-   
-   
    
 </div>

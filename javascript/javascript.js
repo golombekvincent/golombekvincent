@@ -1,3 +1,11 @@
+function sendMail() {
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var message = document.getElementById("message").value;
+    window.location.href = 'mailto:golombek.vincent@gmail.com?subject=Mon site - ' + name + ' (' + email + ')' + '&body=' + message;
+    location.reload();
+};
+
 var slideIndex = 1;
 
 showSlide(slideIndex);
