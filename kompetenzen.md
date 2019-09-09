@@ -46,7 +46,7 @@ order: 6
 
 </div>
 
-<p>Die Erstellung eines klaren und attraktiven Dokuments liegt in meiner Reichweite. Ich bin in der Lage, eine qualitativ hochwertige Kommunikationsträger zu erstellen, die eine Corporate Identity respektiert.</p>
+<p>Die Erstellung eines klaren und attraktiven Dokuments liegt in meiner Reichweite. Ich bin in der Lage, ein hochwertiger Kommunikationsträger zu erstellen, die eine Corporate Identity respektiert.</p>
 
 
    
