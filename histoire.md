@@ -23,7 +23,7 @@ order: 1
     
 <p>J’ai poursuivi ma voie en suivant un master en linguistique informatique et traduction. Cependant je me suis vite rendu compte que j’avais une préférence pour la création graphique plutôt que la programmation. En effet, j’ai développé une véritable passion pour les montages photos que je réalise avec Adobe Photoshop.</p>
 
-<p>Par la suite, la participation à la réalisation d’un catalogue suisse-allemand en plaçant correctement divers éléments visuels et textuels m’a permise de développer mes capacités en graphisme print lors de mon travail en intérim chez <a href="https://www.boutique-sdag.net/" target="_blank">« SDAG »</a>, un distributeur d'accessoires pour la communication visuelle. Cette pratique du métier de graphiste print a révélé mon envie de faire de ce domaine mon métier.</p>
+<p>Par la suite, la participation à la réalisation d’un catalogue suisse-allemand en plaçant correctement divers éléments visuels et textuels m’a permis de développer mes capacités en graphisme print lors de mon travail en intérim chez <a href="https://www.boutique-sdag.net/" target="_blank">« SDAG »</a>, un distributeur d'accessoires pour la communication visuelle. Cette pratique du métier de graphiste print a révélé mon envie de faire de ce domaine mon métier.</p>
 
 <p>Par conséquent, j’ai rejoint le <a href="https://mastercaweb.u-strasbg.fr/" target="_blank">master 2 CAWEB</a> en alternance avec un poste en tant qu’apprenti webmaster à la <a href="http://www.mairie-forbach.fr/" target="_blank">mairie de Forbach</a>. J’ai pu mettre en pratique l’ensemble de mes connaissances acquises dans le multimédia allant de la réalisation de visuels pour les réseaux sociaux à la réalisation d’une brochure.</p>
     </div>
