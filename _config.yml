@@ -18,7 +18,7 @@ index:
   de: home.html
 feed:
   fr: /flux.xml
-  de: /feed.xml
+  de: /feed.xmls
 baseurl: /golombekvincent.github.io # the subpath of your site, e.g. /blog
 url: "https://golombekvincent.github.io/" # the base hostname & protocol for your site
 
