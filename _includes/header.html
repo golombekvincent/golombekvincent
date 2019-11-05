@@ -20,7 +20,7 @@
         {% assign pages=site.pages | where:"lang", page.lang |sort:"order" %}
         {% for my_page in pages %}
           {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          <a class="page-link" href="{{ prepend: site.baseurl | my_page.url }}">{{ my_page.title }}</a>
           {% endif %}
         {% endfor %}
       </div>
@@ -35,7 +35,7 @@
 <div class="wrapper" id="choix_lang">
 
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-  {% for page in pages %} <a href="{{ page.url | prepend: site.baseurl }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
+  {% for page in pages %} <a href="{{ prepend: site.baseurl | page.url }}" class="{{ page.lang }}">{{ page.lang }}</a> {% endfor %}
 </div>
 
 
