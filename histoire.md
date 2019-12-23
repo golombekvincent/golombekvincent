@@ -25,7 +25,7 @@ order: 1
 
 <p>Par la suite, la participation à la réalisation d’un catalogue suisse-allemand en plaçant correctement divers éléments visuels et textuels m’a permis de développer mes capacités en graphisme print lors de mon travail en intérim chez <a href="https://www.boutique-sdag.net/" target="_blank">« SDAG »</a>, un distributeur d'accessoires pour la communication visuelle. Cette pratique du métier de graphiste print a révélé mon envie de faire de ce domaine mon métier.</p>
 
-<p>Par conséquent, j’ai rejoint le <a href="https://mastercaweb.u-strasbg.fr/" target="_blank">master 2 CAWEB</a> en alternance avec un poste en tant qu’apprenti webmaster à la <a href="http://www.mairie-forbach.fr/" target="_blank">mairie de Forbach</a>. J’ai pu mettre en pratique l’ensemble de mes connaissances acquises dans le multimédia allant de la réalisation de visuels pour les réseaux sociaux à la réalisation d’une brochure.</p>
+<p>Par conséquent, j’ai rejoint le <a href="https://mastercaweb.u-strasbg.fr/" target="_blank">master 2 CAWEB</a> en alternance avec un poste en tant qu’apprenti webmaster à la <a href="http://www.mairie-forbach.fr/" target="_blank">mairie de Forbach</a>. J’ai pu mettre en pratique l’ensemble de mes connaissances acquises dans le multimédia en procédant à la refonte du site internet de cette collectivité.</p>
     </div>
     
   </div>

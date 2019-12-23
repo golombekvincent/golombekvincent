@@ -28,7 +28,7 @@ order: 5
 
 <p>Die Teilnahme an der Erstellung eines schweizerisch-deutschen Katalogs durch die richtige Platzierung verschiedener visueller und textlicher Elemente ermöglichte es mir, meine Fähigkeiten in Print grafik während meiner Interimsarbeit bei <a href="https://www.boutique-sdag.net/" target="_blank">„SDAG“</a>, einem Distributor von Zubehör für die visuelle Kommunikation, zu entwickeln. Diese Praxis des Berufes Print Designer hat meinen Wunsch offenbart, diesen Bereich zu meinem Beruf zu machen.</p>
 
-<p>So wechselte ich zum <a href="https://mastercaweb.u-strasbg.fr/" target="_blank">CAWEB Master 2</a> und übernahm abwechselnd eine Stelle als Webmaster-Lehrling im Rathaus der fransösichen <a href="http://www.mairie-forbach.fr/" target="_blank">Stadt Forbach</a>. Von der Erstellung von Visuals für soziale Netzwerke bis hin zur Erstellung einer Broschüre konnte ich all mein erworbenes Wissen über die Gestaltung von Multimedia in die Praxis umsetzen.</p>
+<p>So wechselte ich zum <a href="https://mastercaweb.u-strasbg.fr/" target="_blank">CAWEB Master 2</a> und übernahm abwechselnd eine Stelle als Webmaster-Lehrling im Rathaus der fransösichen <a href="http://www.mairie-forbach.fr/" target="_blank">Stadt Forbach</a>. Durch die Neugestaltung der Website dieser Stadt konnte ich all mein multimediales Wissen in die Praxis umsetzen.</p>
     </div>
     
     
