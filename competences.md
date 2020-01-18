@@ -8,6 +8,11 @@ order: 2
 
 <div class="wrapper">
     
+<div class="video-container">
+    
+<iframe width="740" height="495" src="https://www.youtube.com/embed/-IwH__DkIn0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
 <!-- Intro -->
 
 <p>Tout au long de mon parcours personnel, scolaire et professionnel j'ai pu développer diverses compétences dans le domaine graphique.</p>
