@@ -26,7 +26,7 @@ order: 2
 
 </div>
 
-<p>Un logo facilement reconnaissable et représentative pour une structure est primordiale pour se démarquer de ses concurrents. Cette identité visuelle véhicule l'image et les valeurs et doit être cohérent avec le secteur d'activité, moderne, durable et porteur de sens.</p>
+<p>Un logo facilement reconnaissable et représentatif pour une structure est primordial pour se démarquer de ses concurrents. L'identité visuelle d'une entreprise doit être cohérente avec son secteur d'activité, elle doit également être moderne, durable et porteur de sens car elle véhicule l'image et les valeurs de l'organisation.</p>
 
 
 
