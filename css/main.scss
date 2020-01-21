@@ -485,8 +485,7 @@ background-repeat: no-repeat;
 .instagram{
 background-image: url(../img/ig-icon.png);
 background-size: 30px 30px;
-width: 30px;
-height:30px;
+
 background-repeat: no-repeat;
 }
 
@@ -501,6 +500,24 @@ background-repeat: no-repeat;
     height: 30px;
     width: 30px;
 }
+
+@media screen and (max-width: 600px) {
+
+.instagram, .instagram:hover{
+        background-size: 25px 25px;}
+.ig_link{height: 25px;
+    width:25px;}
+    
+    
+    .linkedin, .linkedin:hover{ 
+        background-size: 25px 25px;
+    } 
+    .linkedin_link{
+    height: 25px;
+    width: 25px;
+}
+}
+
 
 
 /// PAGE HISTOIRE ///
@@ -671,6 +688,13 @@ border:5px outset orange;
 
 //////////////RESPONSIVE//////////////////
 
+@media screen and (max-width: 500px) {
+    
+    .responsive{
+    max-width: 250px;
+    
+    }}
+
 @media screen and (max-width: 600px) {
 
 .responsive{
@@ -678,12 +702,14 @@ border:5px outset orange;
     float:none;
     margin-right: auto;
     margin-left: auto;
+    max-width: 280px;
     }
     
     .espace_bas{
         margin-bottom: 5%;
         
     }}
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
