@@ -16,4 +16,7 @@
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}
   <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
   <link href="https://fonts.googleapis.com/css?family=Spectral&display=swap" rel="stylesheet">
+  <meta name="theme-color" content="#40565c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="#40565c">
 </head>
