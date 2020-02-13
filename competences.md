@@ -39,7 +39,7 @@ order: 2
 
 </div>
 
-<p>Une image vaut mille mots pour transmettre un message à son public cible. Je peux créer des illustrations selon vos besoins et vos envies. Réaliser un visuel pour votre structure serait un honneur.</p>
+<p>Une image vaut mille mots pour transmettre un message à son public cible. Je peux créer des illustrations selon vos besoins et vos envies. Je m'attache à concevoir un univers graphique complet, séduisant et authentique.</p>
 
 
 <!-- Print -->

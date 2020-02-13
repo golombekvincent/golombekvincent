@@ -39,7 +39,7 @@ order: 6
 
 </div>
 
-<p>Ein Bild sagt mehr als tausend Worte, um eine Botschaft an seine Zielgruppe zu vermitteln. Ich kann Illustrationen nach Ihren Wünschen und Bedürfnissen erstellen. Es wäre mir eine Ehre, ein Visual für Ihre Firma zu erstellen.</p>
+<p>Ein Bild sagt mehr als tausend Worte, um eine Botschaft an seine Zielgruppe zu vermitteln. Ich kann Illustrationen nach Ihren Wünschen und Bedürfnissen erstellen. Ich bemühe mich, ein vollständiges, attraktives und authentisches grafisches Universum zu entwerfen.</p>
 
 
 <!-- Print -->
