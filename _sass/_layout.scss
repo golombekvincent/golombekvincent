@@ -36,7 +36,7 @@
 
     @include media-query(700px) {
         position: absolute;
-        top: 9px;
+        top: 30%;
         right: $spacing-unit / 2;
         background-color: #40565c;
         border: 1px solid #f2e0c8;
