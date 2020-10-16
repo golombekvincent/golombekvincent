@@ -459,63 +459,37 @@ border:5px outset orange;
 
 //Footer//
 
-.linkedin{
-position: absolute;
-margin-left: 40px;
-background-image: url(../img/linkedin-icon.png);
-background-size: 30px 30px;
-width: 30px;
-height:30px;
-background-repeat: no-repeat;
+.fa-linkedin-in{
+font-size:30px;
+color:#f2e0c8;
 }
 
-.linkedin:hover{
-background-image: url(../img/linkedin-icon-hover.png);
-background-size: 30px 30px;
-background-repeat: no-repeat;
-}
-
-.linkedin_link{
-    display: block;
-    height: 30px;
-    width: 30px;
+.fa-linkedin-in:hover{
+color:#bd8c51;
 }
 
 
-.instagram{
-background-image: url(../img/ig-icon.png);
-background-size: 30px 30px;
-
-background-repeat: no-repeat;
+.fa-instagram{   
+font-size:32px;
+color:#f2e0c8;
 }
 
-.instagram:hover{
-background-image: url(../img/ig-icon-hover.png);
-background-size: 30px 30px;
-background-repeat: no-repeat;
+.fa-instagram:hover{
+color:#bd8c51;
 }
 
-.ig_link{
-    display: block;
-    height: 30px;
-    width: 30px;
-}
 
 @media screen and (max-width: 600px) {
 
-.instagram, .instagram:hover{
-        background-size: 25px 25px;}
-.ig_link{height: 25px;
-    width:25px;}
+.fa-instagram{
+        font-size: 27px;
+    }
+        
     
-    
-    .linkedin, .linkedin:hover{ 
-        background-size: 25px 25px;
+    .fa-linkedin-in{ 
+        font-size: 25px;
     } 
-    .linkedin_link{
-    height: 25px;
-    width: 25px;
-}
+
 }
 
 
